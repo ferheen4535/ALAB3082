@@ -80,15 +80,16 @@ capacity = plants * minperPlant
 console.log("Number of plants for 10 weeks" + plants)
 console.log("The capcity for the plants " + capacity)
 
-// //part 3 I tried the try and catch but I was getting it wrong 
-// and it was cancelling out the other work//
+// //part 3 I tried the try and catch //
 
 
-// try {
-//     console.log("Number of plants for 10 weeks" + plants)}
-//     catch {
-// console.log("The capcity for the plants " + capacity)} 
 
+try {
+    capacity = plants * minperPlant; 
+  } catch (error) {
+    console.log("An error occurred:", error.message);
+  }
+  
 
  
 
