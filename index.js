@@ -74,4 +74,30 @@ if (capacity > area * 0.8)
 
 //part 2//
 
+plants =100
+plants = plants * 2
+capacity = plants * minperPlant
+console.log("Number of plants for 10 weeks" + plants)
+console.log("The capcity for the plants " + capacity)
+
+// //part 3 I tried the try and catch but I was getting it wrong 
+// and it was cancelling out the other work//
+
+
+// try {
+//     console.log("Number of plants for 10 weeks" + plants)}
+//     catch {
+// console.log("The capcity for the plants " + capacity)} 
+
+
+ 
+
+
+
+
+
+
+
+
+
 
